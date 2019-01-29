@@ -1,4 +1,5 @@
 <?php
 echo 'Hello world';
+?>
 
-$age = 39;
+<a href="opdracht2.php">Opdracht 2</a>

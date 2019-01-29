@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JoeyPHP.iml" filepath="$PROJECT_DIR$/.idea/JoeyPHP.iml" />
       <module fileurl="file://$PROJECT_DIR$/JoeyPHP.iml" filepath="$PROJECT_DIR$/JoeyPHP.iml" />
     </modules>
   </component>
