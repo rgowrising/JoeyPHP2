@@ -1,19 +1,15 @@
 <?php
-$age = 2;
+$age = 66;
 $bedrag = 10;
-if($age >65){
-    echo $bedrag = $bedrag *0.5;
-}
-if($age < 65){
-    echo $bedrag;
+if($age > 65){
+    echo $bedrag = $bedrag * 0.5;
 }
 if($age <= 12){
-    echo $bedrag = $bedrag *0.5;
+    echo $bedrag = 5;
 }
-if($age <= 3){
-    echo $bedrag = $bedrag *0.5;
+if($age < 3){
+    echo "gratis";
 }
-
-?>
-
-
+else{
+   echo $bedrag;
+}
