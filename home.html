@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+<script>
+    function myFunction(spanId, btnId, moreTextId) {
+        var dots = document.getElementById(spanId);
+        var btnText = document.getElementById(btnId);
+        var moreText = document.getElementById(moreTextId);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+
+<header>
+    <h1>Chimpansee</h1>
+</header>
+
+<div id="apen">
+
+    <div id="kenmerk">
+        <h2>Kenmerken</h2>
+        <img src="imgg/aap6.jpg"><br><br>
+        <article id="1">
+            De chimpansee is een grote, sterke mensaap met een gedrongen lichaamsbouw. Een volwassen chimpansee<br>
+            heeft een kop-romplengte<span id="dots">...</span>
+            <span style="display:none" id="moreText">
+            van 75 tot 100 cm[3], een schouderhoogte van 100 tot 179 cm en een <br>
+lichaamsgewicht van ongeveer 35 tot 65 kg. Vrouwtjes wegen gemiddeld 45 kg, mannetjes 55 kg. <br>
+Het gewicht van chimpansees in gevangenschap ligt over het algemeen hoger. Een chimpansee heeft <br>
+lange armen die samen tot 2,7 m kunnen worden uitgespreid. Ze zijn meestal rechtshandig.[4]<br>
+De schouders en armen van een chimpansee zijn zeer gespierd, veel sterker dan die van de mens. <br>
+De benen zijn daarentegen vrij kort. Het gezicht heeft een smalle neus, diepgelegen ogen, opvallende<br>
+        wenkbrauwbogen, grote, ronde oren, een brede bovenkaak en smalle lippen. </span>
+            <button onclick="myFunction('dots','btnText','moreText')" id="btnText">Read more</button>
+        </article>
+    </div>
+
+    <div id="voeding">
+        <h2>voedsel</h2>
+        <img src="imgg/aap1.jpg"><br><br>
+        <article id="2">
+            Uit veldonderzoek van wilde chimpansees in Afrika is gebleken dat groepen chimpansees die op verschillende
+            locaties leven ook eigen gedragsrepertoires vertonen. Zij<br>
+            vertonen bijvoorbeeld verschillen<span id="dots2">...</span>
+            <span style="display:none" id="moreText2">
+        in het verzorgen van zichzelf
+        en hun kinderen, de onderlinge omgang, gebruik
+        van bepaalde voorwerpen of gereedschappen.<br>
+        Deze gedragsverschillen kunnen verklaard worden als een gevolg van cultuur, dat wil zeggen van sociaal gevormd
+        gedrag dat van de ene generatie aan de volgende<br>
+        generatie wordt doorgegeven[10]. Een tweede mogelijk is dat deze gedragsverschillen voortkomen uit verschillen
+        in genetische kenmerken. Een recente studie waarbij <br>
+        bij groepen wilde chimpansees ook het DNA is gemeten[11], heeft kunnen vaststellen dat deze groepen ook
+        verschillen in genetische kenmerken. Het laatste woord over<br>
+        de vraag in hoeverre gedragsverschillen</span>
+            <button onclick="myFunction('dots2','btnText2','moreText2')" id="btnText2">Read more</button>
+        </article>
+    </div>
+
+    <div id="leefgebieden">
+        <h2>Leefgebied</h2>
+        <img src="imgg/aap9.jpg"> <br><br>
+        <article id="3">
+            De chimpansee komt voor in equatoriale bossen in Centraal- en West-Afrika, van Senegal via Congo-Kinshasa,
+            ten
+            noorden van de<br>
+            Kongostroom, oostwaarts tot<span id="dots3">...</span>
+            <span style="display:none" id="moreText3">
+        westelijk Tanzania en westelijk Oeganda. Hij leeft voornamelijk in open wouden en
+        regenwouden, maar<br>
+        is ook te vinden in bergbossen en bossavannes.<br>
+        De schattingen over het aantal nog in het wild levende chimpansees lopen uiteen. Volgens sommige deskundigen
+        zouden er nog zo'n<br>
+        150.000 tot 200.000 levende individuen over zijn, volgens anderen nauwelijks 100.000. Een eeuw geleden waren het
+        er misschien nog 2 miljoen.</span>
+            <button onclick="myFunction('dots3','btnText3','moreText3')" id="btnText3">Read more</button>
+        </article>
+    </div>
+    <div id="leefwijzes">
+        <h2>Leefwijze</h2>
+        <img src="imgg/aap3.jpg"><br><br>
+        <article id="4">
+            De chimpansee is een dagdier. Hij is voornamelijk vroeg in de ochtend en in de namiddag actief, op het
+            heetst
+            van de dag rust hij.<br>
+            Hij brengt veel tijd<span id="dots4">...</span>
+            <span style="display:none" id="moreText4">
+        op de grond door, maar klimt ook regelmatig in bomen om voedsel te zoeken en te slapen. In
+        de boom slaapt <br>
+        hij in een zelfgemaakt slaapnest van bladeren en takken, die hij aan het einde van de avond bouwt. Het nest is
+        gelegen op een<br>
+        hoogte van 6 tot 25 m. Hij loopt meestal op handen en voeten, en gebruikt de voetzolen en de knokkels van de
+        handen om zich voort<br>
+        te bewegen. Hij kan ook op de achterpoten lopen, maar doet dit enkel over korte afstanden. Lopen op twee poten
+        gebeurt meestal <br>
+        als de voorpoten al ergens anders voor worden gebruikt, bijvoorbeeld het dragen van voedsel of voorwerpen. Met
+        zijn krachtige <br>
+        armen kan hij in een boom van tak naar tak slingeren.</span>
+            <button onclick="myFunction('dots4','btnText4','moreText4')" id="btnText4">Read more</button>
+        </article>
+    </div>
+</div>
+<footer>
+    <div id="wrapper">
+        <div id="info"><h2>Info</h2></div>
+        <p>
+            Adress<br>
+            Kalfjeslaan 123,<br>
+            1122 AB Amsterdam<br>
+            Tel.0655944933
+        </p>
+    </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.6491074225687!2d4.887724915684014!3d52.32236945860921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a6d0754d97b%3A0xd07832d2fb8c18ed!2sKalfjeslaan%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1551862013917"
+width="100%" height="100px" frameborder="0" style="border:0" allowfullscreen></iframe>
+</footer>
+</body>
+</html>
