@@ -15,6 +15,8 @@ $result = mysqli_query($dbc,$query) or die ('Error querying.');
 while ($row = mysqli_fetch_array($result)){
     echo $row['klasgenoot_id'].'/'.$row['voornaam'].'/'.$row['tussenvoegsel'].'/'.$row['achternaam'].'/'.$row['woonplaats'].'<br>';
 }
+
 ?>
+
 </body>
 </html>

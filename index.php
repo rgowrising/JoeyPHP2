@@ -6,6 +6,7 @@ echo 'index PHP';
         padding:10px;
         color:black;
     }
+
 </style>
 <a href="opdracht2.php">Opdracht 2</a>
 <a href="opdracht31.php">opdracht 31</a>
@@ -23,3 +24,4 @@ echo 'index PHP';
 <a href="html.html">OPDRACHT</a>
 <a href="Opdrachtcss.html">grid</a>
 <a href="database.php">database</a>
+<a href="opdracht8.php">mysql</a>

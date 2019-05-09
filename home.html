@@ -22,16 +22,32 @@
             moreText.style.display = "inline";
         }
     }
+    function openNav(){
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.width = "250px;";
+    }
+    function closeNav(){
+        document.getElementById("mySidebar").style.width = "0px";
+    }
 </script>
 
 <header>
     <h1>Chimpansee</h1>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="kenmerk.html">KENMERK</a>
+        <a href="voedsel.html">VOEDSEL</a>
+        <a href="#">LEEFGEBIED</a>
+        <a href="#">LEEFWIJZE</a>
+    </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidebar</button>
+    </div>
 </header>
 
 <div id="apen">
-
     <div id="kenmerk">
-        <h2>Kenmerken</h2>
+        <h2>KENMERKEN</h2>
         <img src="imgg/aap6.jpg"><br><br>
         <article id="1">
             De chimpansee is een grote, sterke mensaap met een gedrongen lichaamsbouw. Een volwassen chimpansee<br>
@@ -44,12 +60,12 @@ lange armen die samen tot 2,7 m kunnen worden uitgespreid. Ze zijn meestal recht
 De schouders en armen van een chimpansee zijn zeer gespierd, veel sterker dan die van de mens. <br>
 De benen zijn daarentegen vrij kort. Het gezicht heeft een smalle neus, diepgelegen ogen, opvallende<br>
         wenkbrauwbogen, grote, ronde oren, een brede bovenkaak en smalle lippen. </span>
-            <button onclick="myFunction('dots','btnText','moreText')" id="btnText">Read more</button>
+<button style="border:none; padding:5px 10px; color:black; background-color:gray; font-size:20px; cursor:pointer;"  onclick="myFunction('dots','btnText','moreText')" id="btnText">Read more</button>
         </article>
     </div>
 
     <div id="voeding">
-        <h2>voedsel</h2>
+        <h2><a href="voedsel.html">VOEDING</a></h2>
         <img src="imgg/aap1.jpg"><br><br>
         <article id="2">
             Uit veldonderzoek van wilde chimpansees in Afrika is gebleken dat groepen chimpansees die op verschillende
@@ -66,12 +82,12 @@ De benen zijn daarentegen vrij kort. Het gezicht heeft een smalle neus, diepgele
         bij groepen wilde chimpansees ook het DNA is gemeten[11], heeft kunnen vaststellen dat deze groepen ook
         verschillen in genetische kenmerken. Het laatste woord over<br>
         de vraag in hoeverre gedragsverschillen</span>
-            <button onclick="myFunction('dots2','btnText2','moreText2')" id="btnText2">Read more</button>
+<button style=" border:none; padding:5px 10px; color:black; background-color:gray; font-size:20px;cursor:pointer;" onclick="myFunction('dots2','btnText2','moreText2')" id="btnText2">Read more</button>
         </article>
     </div>
 
     <div id="leefgebieden">
-        <h2>Leefgebied</h2>
+        <h2>LEEFGEBIED</h2>
         <img src="imgg/aap9.jpg"> <br><br>
         <article id="3">
             De chimpansee komt voor in equatoriale bossen in Centraal- en West-Afrika, van Senegal via Congo-Kinshasa,
@@ -86,11 +102,11 @@ De benen zijn daarentegen vrij kort. Het gezicht heeft een smalle neus, diepgele
         zouden er nog zo'n<br>
         150.000 tot 200.000 levende individuen over zijn, volgens anderen nauwelijks 100.000. Een eeuw geleden waren het
         er misschien nog 2 miljoen.</span>
-            <button onclick="myFunction('dots3','btnText3','moreText3')" id="btnText3">Read more</button>
+<button style="border:none; padding:5px 10px; color:black; background-color:gray; font-size:20px;cursor:pointer;" onclick="myFunction('dots3','btnText3','moreText3')" id="btnText3">Read more</button>
         </article>
     </div>
     <div id="leefwijzes">
-        <h2>Leefwijze</h2>
+        <h2>LEEFWIJZE</h2>
         <img src="imgg/aap3.jpg"><br><br>
         <article id="4">
             De chimpansee is een dagdier. Hij is voornamelijk vroeg in de ochtend en in de namiddag actief, op het
@@ -109,7 +125,7 @@ De benen zijn daarentegen vrij kort. Het gezicht heeft een smalle neus, diepgele
         als de voorpoten al ergens anders voor worden gebruikt, bijvoorbeeld het dragen van voedsel of voorwerpen. Met
         zijn krachtige <br>
         armen kan hij in een boom van tak naar tak slingeren.</span>
-            <button onclick="myFunction('dots4','btnText4','moreText4')" id="btnText4">Read more</button>
+<button style="border:none; padding:5px 10px; color:black; background-color:gray; font-size:20px;cursor:pointer;" onclick="myFunction('dots4','btnText4','moreText4')" id="btnText4">Read more</button>
         </article>
     </div>
 </div>
