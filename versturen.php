@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: hp
- * Date: 7-5-2019
- * Time: 11:08
- */
+
+
+
+mail('bryce.mitchel@lcebull.com','test localhost','dit is een testbericht','from: zitoribiy@email-list.online');

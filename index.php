@@ -24,4 +24,6 @@ echo 'index PHP';
 <a href="html.html">OPDRACHT</a>
 <a href="Opdrachtcss.html">grid</a>
 <a href="database.php">database</a>
-<a href="opdracht8.php">mysql</a>
+<a href="opdracht8.php">mysql</a><br>
+<a href="homepage.php">HOMEPAGE</a>
+<a href="productpagina.php">PRODUCTPAGINA</a>
